@@ -1,10 +1,10 @@
 import os
 
-# 经过处理后的视频文件夹
-mubiao_path = r'F:\project\vidios'
+# 要改变名字的文件夹
+mubiao_path = r'路径'
 
-# 刚从硬盘上拷贝下来还没进行剪辑的视频文件夹
-folder_path = r'F:\project\after'
+# 参考名字的文件夹
+folder_path = r'路径'
 
 # 获取文件夹内的所有文件名
 file_names = os.listdir(folder_path)
